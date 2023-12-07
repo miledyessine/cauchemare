@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import MainContent from './components/mainContent/MainContent';
 
 function App() {
   return (
-    <div className="bg-red-900">
-      h1
-    </div>
+    <>
+    <Header/>
+    <MainContent/>
+    <Footer/>
+    </>
   );
 }
 
